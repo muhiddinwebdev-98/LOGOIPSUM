@@ -1,0 +1,212 @@
+#clients {
+
+    .wrapper {
+        padding-top: 150px;
+        text-align: center;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+
+        .wrapper__cards {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .card1 {
+            width: 170px;
+            height: 96px;
+            position: absolute;
+            top: 50px;
+            left: 500px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+
+        .card2 {
+            width: 170px;
+            height: 96px;
+            position: absolute;
+            top: 150px;
+            left: 750px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+            
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+
+        .card3 {
+            width: 170px;
+            height: 96px;
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+            
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+
+        .card4 {
+            width: 170px;
+            height: 96px;
+            position: absolute;
+            top: 200px;
+            left: 500px;
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 12px;
+
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+            
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+
+        .card5 {
+            width: 170px;
+            height: 96px;
+            position: absolute;
+            top: 225px;
+            left: 30px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+            
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+
+        .card6 {
+            width: 170px;
+            height: 96px;
+            position: absolute;
+            top: 300px;
+            left: 250px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+            
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+
+        .card7 {
+            width: 170px;
+            height: 96px;
+            position: absolute;
+            top: 350px;
+            left: 500px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+            
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+
+        .card8 {
+            width: 170px;
+            height: 96px;
+            position: absolute;
+            top: 300px;
+            left: 750px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+            
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+
+        .card9 {
+            width: 170px;
+            height: 96px;
+            position: absolute;
+            top: 220px;
+            left: 980px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: rgba(234, 218, 218, 0.1) 0px 1px 1px 0px inset,
+            rgba(219, 219, 222, 0.25) 0px 50px 100px -20px,
+            rgba(220, 213, 213, 0.3) 0px 30px 60px -30px;
+
+            
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+
+    }
+}

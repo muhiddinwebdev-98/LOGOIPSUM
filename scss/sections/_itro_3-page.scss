@@ -1,0 +1,101 @@
+#intro_3-page {
+  padding-top: 154px;
+  margin-bottom: 100px;
+
+  .wrapper {
+    display: flex;
+    gap: 100px;
+    align-items: start;
+
+    &__left {
+      max-width: 563px;
+
+      h1 {
+        font-size: 54px;
+        color: #fff;
+      }
+
+      p {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 48px;
+      }
+
+      button {
+        @extend %btnPrimary;
+        padding: 18px 36px;
+      }
+    }
+
+    &__right {
+      flex-grow: 2;
+
+      position: relative;
+      background-image: url("../../assets/images/cicle.svg");
+      width: 500px;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      img {
+        position: absolute;
+
+        &:nth-child(1) {
+          top: -40px;
+          left: 74px;
+          -webkit-animation: slide-top 2s linear infinite alternate both;
+          animation: slide-top 2s linear 3s infinite alternate both;
+        }
+
+        &:nth-child(2) {
+          bottom: 1px;
+          left: -76px;
+          -webkit-animation: slide-top 2s linear infinite alternate both;
+          animation: slide-top 2s linear infinite alternate both;
+        }
+
+        &:nth-child(3) {
+          top: 185px;
+          right: 40px;
+          -webkit-animation: slide-top 2s linear infinite alternate both;
+          animation: slide-top 2s linear 3s infinite alternate both;
+        }
+
+        &:nth-child(4) {
+          bottom: 100px;
+          right: -5px;
+          -webkit-animation: slide-top 2s linear infinite alternate both;
+          animation: slide-top 2s linear infinite alternate both;
+        }
+      }
+    }
+  }
+
+  .box-circle {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+  }
+
+  .box-circle-into {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 50%;
+    &:hover{
+      background-color: aqua;
+    }
+  }
+  .prg{
+    text-align: end;
+    margin-top: 10px;
+    color: #EEE9E9;
+    position: relative;
+    left: 15px;
+  }
+}

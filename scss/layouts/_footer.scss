@@ -1,0 +1,71 @@
+.footer_end {
+    margin-bottom: 100px;
+
+    .footer_flex {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            color: #e2e1e4;
+        }
+
+        .numbers {
+            color: #785eeb;
+        }
+        .gmail {
+            color: #785eeb;
+        }
+
+        .logo-box {
+            margin-bottom: 28px;
+        }
+
+        li {
+            margin-bottom: 16px;
+
+            .title-one {
+                margin-bottom: 10px;
+            }
+        }
+
+        .footer-prg {
+            color: #eee9e9;
+            margin-top: 2px;
+            padding: 5px 0;
+        }
+
+        .footer_btn {
+            width: 125px;
+            height: 45px;
+            border-radius: 100px;
+            background-color: #8c72ff;
+            border: none;
+            margin-top: 16px;
+
+            a {
+                color: #fbfaff;
+            }
+        }
+    }
+
+    .line-bar {
+        margin-top: 100px;
+        margin-bottom: 27px;
+    }
+
+    .end-box{
+        display: flex;
+        justify-content: space-around;
+        gap: 450px;
+
+        p{
+            color: #A7A4AF;
+        }
+
+        .logo-into{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
